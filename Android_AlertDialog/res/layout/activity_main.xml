@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/dialog1"
+        android:onClick="dialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定取消框" />
+
+    <Button
+        android:id="@+id/dialog2"
+        android:onClick="dialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单选框" />
+
+    <Button
+        android:id="@+id/dialog3"
+        android:onClick="dialog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选框" />
+
+</LinearLayout>
